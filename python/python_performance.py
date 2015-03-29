@@ -100,5 +100,4 @@ def run():
 if __name__ == '__main__':
     start_time = time.time()
     run()
-    print "compilted in"
-    print time.time() - start_time
+    print "Python code completed in %f sec" % (time.time() - start_time)
